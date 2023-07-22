@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(16, 17, 20);
+    font-family: Lucida, sans-serif;
+}
+
+.box {
+    height: 600px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1526992430293-51554a151122?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: top center top;
+    display: flex;
+    justify-content: center;
+}
+
+.baner {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.baner>p2 {
+    font-size: medium;
+    color: rgb(221, 230, 235);
+    text-align: right;
+}
+
+.baner>h1 {
+    margin: 15px;
+}
+
+.baner>button {
+    background-color: rgba(147, 232, 243, 0.832);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.bun:hover {
+    background-color: rgb(19, 158, 175);
+    cursor: pointer;
+    border: none;
+}
+
+.pay {
+    font-size: small;
+    background-color: rgba(44, 41, 41, 0.39);
+    height: 45px;
+    width: 110px;
+    border-radius: 25px;
+    position: relative;
+    left: 360px;
+    background-size: cover;
+}
+
+.log {
+    height: 450px;
+    width: 800px;
+    color: white;
+    background-color: rgb(19, 22, 27);
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.get {
+    color: rgba(132, 143, 160, 0.671);
+}
+
+.log>h2 {
+    font-size: 180%;
+}
+
+.log>h1 {
+    font-size: 180%;
+}
+
+.log>p2 {
+    font-size: medium;
+    margin: 1px;
+    color: white;
+}
+
+.log>p {
+    font-size: medium;
+    margin: 10px;
+    color: rgba(132, 143, 160, 0.671);
+}
+
+.a {
+    color: rgba(132, 143, 160, 0.671);
+}
+
+.go {
+    text-align: center;
+    color: white;
+}
+
+.b {
+    color: rgba(132, 143, 160, 0.671);
+    font-size: small;
+}
+
+.boy {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.go>h1 {
+    font-size: 200%;
+}
+
+.go>h2 {
+    font-size: 95%;
+    color: rgba(132, 143, 160, 0.671);
+}
+
+.block-gard {
+    margin: auto;
+    width: 150px;
+    height: 300px;
+}
+
+.block-gard>img {
+    width: 150%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.block-gard>p {
+    background-color: rgb(19, 22, 27);
+    position: relative;
+    text-align: center;
+    position: static;
+    color: rgba(132, 143, 160, 0.671);
+    width: 150%;
+    height: 120px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.block-gard>p2 {
+    position: relative;
+
+    left: 35px;
+    text-align: center;
+    color: white;
+}
+
+.block-gards {
+    margin: auto;
+    width: 150px;
+    height: 300px;
+}
+
+.block-gards>img {
+    width: 150%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.block-gards>p {
+    background-color: rgb(19, 22, 27);
+    position: relative;
+    text-align: center;
+    position: static;
+    color: rgba(132, 143, 160, 0.671);
+    width: 150%;
+    height: 120px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.block-gards>p2 {
+    position: relative;
+
+    left: 35px;
+    text-align: center;
+    color: white;
+}
+
+.boys {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
