@@ -26,7 +26,7 @@ const displayProducts = (arrayData) => {
 };
 
 const getData = async () => {
-  const response = await fetch("https://dummyjson.com/products");
+  const response = await fetch("https://dummyjson.com/products?limit=12");
   const responseJson = await response.json();
 
   const { products } = responseJson;
